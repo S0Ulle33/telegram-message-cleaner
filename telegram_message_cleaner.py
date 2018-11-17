@@ -69,7 +69,7 @@ async def delete_messages(ids):
     await client.get_dialogs()
 
     for id_ in ids:
-        chat = await client.get_entity(id_)
+        chat = await client.get_entity(int(id_))
         messages = await client.get_messages(chat, limit=None, from_user='me')
 
         for message in messages:
