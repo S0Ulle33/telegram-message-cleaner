@@ -141,7 +141,7 @@ Examples:
         sys.exit(1)
 
     args = parser.parse_args()
-    if args.statistic:
+    if args.statistic or args.statistic == []:
         get_group_messages_statistic(args.statistic)
     elif args.delete:
         delete(args.delete)
