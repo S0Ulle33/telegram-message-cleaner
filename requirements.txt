@@ -1,2 +1,1 @@
-telethon==1.4.1
-prettytable==0.7.2
+telethon
