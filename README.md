@@ -14,7 +14,7 @@ Installing
 
 Clone it or download manually.
 ```shell
-    git clone https://github.com/S0Ulle33/telegram-message-cleaner.git
+    git clone -b dev https://github.com/S0Ulle33/telegram-message-cleaner.git
     cd telegram-message-cleaner
 ```
 
