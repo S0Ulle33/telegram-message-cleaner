@@ -1,6 +1,8 @@
 Telegram Message Cleaner
 ========================
 
+> There is simpler version: no message counting and `prettytable`. It's in the [dev branch](https://github.com/S0Ulle33/telegram-message-cleaner/tree/dev).
+
 **Telegram Message Cleaner** is a python script that can show your statistics (how many messages from you) on all your group chats, and also remove all your messages from specified chats.
 
 Requirements
